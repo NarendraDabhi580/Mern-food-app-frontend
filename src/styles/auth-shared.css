@@ -1,0 +1,25 @@
+@layer utilities {
+    .auth-page {
+        @apply w-full min-h-screen flex justify-center items-center bg-[#ffffff] dark:bg-[#030712] text-black dark:text-white;
+    }
+
+    .auth-card {
+        @apply rounded-lg w-120 p-6 border border-[#282b35] bg-[#f9fafb] dark:bg-[#11131e] text-black dark:text-white;
+    }
+
+    .auth-title {
+        @apply text-center font-bold text-2xl mb-8;
+    }
+
+    .auth-form {
+        @apply grid grid-cols-1 gap-1;
+    }
+
+    .auth-input {
+        @apply bg-gray-200 dark:bg-[#1d1f29] rounded-md text-black dark:text-white p-2 m-2 focus:outline-none focus:ring-0 border border-transparent focus:border-[#6366F1];
+    }
+
+    .auth-btn {
+        @apply bg-[#6366F1] hover:bg-[#4F46E5] rounded-md text-white p-2 m-2 cursor-pointer;
+    }
+}

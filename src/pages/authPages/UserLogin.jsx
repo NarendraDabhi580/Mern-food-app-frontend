@@ -1,5 +1,5 @@
 import { UserLoginMetadata } from "./metaData";
-import AuthForm from "./authForm";
+import AuthForm from "./AuthForm";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";

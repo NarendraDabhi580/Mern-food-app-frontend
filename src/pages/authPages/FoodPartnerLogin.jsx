@@ -1,5 +1,5 @@
 import { FoodPartnerLoginMetadata } from "./metaData";
-import AuthForm from "./authForm";
+import AuthForm from "./AuthForm";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
